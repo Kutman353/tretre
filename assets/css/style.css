@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    background: url(../img/green.jpg) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    background-size: 100%;
+}
+
+.logo{
+    display: inline-block;
+    font-size: 2em;
+    width: 100px;
+    margin-top: -40px;
+}
+
+
+nav{
+    display: flex;
+}
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.header__ul{
+    margin-top: -60px;
+}
+
+.btn__signup{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 1600px;
+}
+
+.salad{
+   height: 100vh;
+   z-index: 3;
+   color: white;
+   margin: 0;
+   padding: 0;
+}
+
+h1{
+    font-size: 64px;
+    font-family: sans-serif;
+    margin-top: -900px;
+    margin-left: 50px;
+}
+
+li{
+    margin-left: 100px;
+    padding: 20px;
+    font-size: 36px;
+}
+
+.start{
+    margin-top: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 56px;
+    font-family: sans-serif;
+    margin-top: -920px;
+    margin-left: 50px;
+}
+
+.start__img{
+    margin-top: -50px;
+}
+
+.start__button{
+    margin-top: 300px;
+    margin-left: 250px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: #4CAF50;
+    padding: 20px 30px;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    font-size: 1em;
+}
+
+
+
+@media (max-width: 768px) {
+    .header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .header__ul{
+        margin-top: 0;
+        text-align: right;
+    }
+
+    .btn__signup{
+        margin-left: 0;
+    }
+
+    h1{
+        font-size: 32px;
+        margin-top: -400px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    li{
+        margin-left: 0;
+        text-align: center;    
+    }
+
+    h2{
+        font-size: 32px;
+        margin-top: -400px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .start__button{
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+
+
+
